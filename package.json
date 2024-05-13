@@ -1,0 +1,22 @@
+{
+  "name": "fragments-ui",
+  "private": true,
+  "version": "0.0.1",
+  "source": "src/index.html",
+  "description": "Fragments UI testing web app",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darpanITadept/fragments-ui.git"
+  },
+  "author": "Darpan",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "aws-amplify": "^5.3.18"
+  }
+}
