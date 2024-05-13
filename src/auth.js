@@ -6,7 +6,7 @@ import { Amplify, Auth } from 'aws-amplify';
 Amplify.configure({
   Auth: {
     // Amazon Region. We can hard-code this (we always use the us-east-1 region)
-    region: 'us-east-1',
+    region: 'ap-south-1',
 
     // Amazon Cognito User Pool ID
     userPoolId: process.env.AWS_COGNITO_POOL_ID,
